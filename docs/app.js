@@ -332,3 +332,4 @@ loadManifest().catch((error) => {
   els.manifestMeta.textContent = "Manifest not found. Run scripts/generate-inventory-manifest.ps1, then reload.";
   console.error(error);
 });
+
